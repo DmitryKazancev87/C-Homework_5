@@ -13,6 +13,6 @@ for (int i=0;i<RandomArray.Length;i++)
 RandomArray[i]=new Random().Next(100,999);
     if (RandomArray[i]%2==0)
 {
-System.Console.Write(RandomArray[i]+" ");
+System.Console.Write($"четное число - {RandomArray[i]}, ");
 }
 }
