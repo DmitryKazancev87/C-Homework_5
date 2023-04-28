@@ -26,4 +26,5 @@ for (int j=0;j<RandomArray.Length; j++)
     min=RandomArray[j];
    }   
 }
-System.Console.Write($": всего {RandomArray.Length} чисел, максимальное значение = {max}, минимальное значение = {min}");
+System.Console.WriteLine($": всего {RandomArray.Length} чисел(а), максимальное значение = {max}, минимальное значение = {min}.");
+System.Console.WriteLine($" Разница между максимальным и минимальным элементом массива = {max-min}.");
