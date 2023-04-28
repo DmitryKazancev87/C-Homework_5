@@ -11,7 +11,7 @@ int [] RandomArray=new int [LengthArray];
 for (int i=0;i<RandomArray.Length;i++)
 {
 RandomArray[i]=new Random().Next(1,1000);
-System.Console.Write(RandomArray[i]+" ");
+System.Console.Write("["+RandomArray[i]+"]");
 }
 int SumArray=0;
 for (int j=0;j<RandomArray.Length; j+=2)
